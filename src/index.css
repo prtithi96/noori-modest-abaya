@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7faf6;
+    color: #181c1a;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f4f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c8c4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #717975;
+}
